@@ -2,7 +2,6 @@ import random
 
 num = random.randint(0, 100)
 #num = 20
-#输入指定范围
 
 a = 0
 b = 100
