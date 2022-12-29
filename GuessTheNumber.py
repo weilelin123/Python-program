@@ -1,7 +1,7 @@
 import random
 
 num = random.randint(0, 100)
-#num = 20
+# num = 20
 
 a = 0
 b = 100
@@ -14,7 +14,7 @@ for i in range(1, 4):
     elif I_num > num:
         b = I_num
         print("This is your {} guess, need to guess smaller".format(i))
-    elif I_num  < num:
+    elif I_num < num:
         a = I_num
         print("This is your {} guess, need to guess bigger".format(i))
 else:
